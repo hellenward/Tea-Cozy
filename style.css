@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin: 10px 560px 10px 4.5px;
+  padding: 0;
+}
+
+.navigation ul {
+  width: 600px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: flex-end;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+}
+
+.navigation li {
+  display: flex;
+  padding: 0;
+  margin: 10;
+  text-decoration: underline;
+}
+
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: inline-flex;
+  height: 700px;
+  width: 1200px;
+  margin: 79px;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionBox {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  align-self: center;
+  align-items: center;
+}
+
+.missionText {
+  display: table;
+  text-align: center;
+  padding: 0;
+  margin: 0 90px;
+  padding: 0;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  margin: 0;
+}
+
+.month h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.month h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin: 20px 50px;
+}
+
+.product {
+  display: inline-block;
+  padding: 10px;
+  height: 250px;
+}
+
+.product img {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.product h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 79px;
+  padding: 0px;
+}
+
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  min-height: 300px;
+  min-width: 300px;
+  margin: 15px 20px;
+  padding: 0px;
+  text-align: center;
+  opacity: 1;
+  font-weight: bold;
+}
+
+#loc1 {
+  margin-left: 100px;
+}
+
+.locheader {
+  display: flex;
+  margin: 0px 0px 0px 520px;
+  padding: 0px;
+}
+
+.locheader h2 {
+  margin: 75px 0px 0px 0px;
+  padding: 0;
+}
+
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h5 {
+  padding: 0px;
+  margin: 15px;
+}
+
+.copyright {
+  align-text: left;
+  margin-left: 20px;
+}
